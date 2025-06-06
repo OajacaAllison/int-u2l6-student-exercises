@@ -10,7 +10,9 @@
 
 /* 4. The pics are too close to each other. Add 5px of margin to each one. */
 
-
+.header {
+    border: black solid 5px; 
+}
 .row1 {
     display: flex;
     justify-content: center;
@@ -28,6 +30,7 @@ body {
 }
 
 h1 {
+    
     border-bottom: 2px solid #f1f1f1;
     width: 30%;
     padding: 20px;
@@ -37,4 +40,7 @@ h1 {
 
 img {
     width: 200px;
+    border: solid yellow 5px;
+    padding: 5px;
+    margin-right: 5px;
 }

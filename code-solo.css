@@ -31,3 +31,17 @@
     background: violet;
 
 }
+.sample1 {
+    flex: 10%;
+    justify-content: flex-start;
+}
+.sample2 {
+    flex: 10%
+    justify-content: space-between;
+}
+img {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 30%;
+}
